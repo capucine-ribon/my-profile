@@ -1,0 +1,78 @@
+/* Colors and fonts */
+body {
+	background-color: #f5c8aa63;
+    color: #58483cd6;
+    font-family: Cormorant Garamond;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 250;
+}
+
+h1, h2, h3 {
+	font-family: Tillana, cursive;
+    color: #d3624ee3;
+	font-weight: 200;
+	font-size: 29px;
+}
+
+a{
+	text-decoration: none;
+	color: #a5c2e4;
+	transition: color 0.3s ease;
+	font-size: 17px;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+img {
+	width: 200px;
+}
+
+/* Custom design with class*/
+
+.container {
+	width: 600px;
+	margin: 40px auto
+}
+
+.card-white {
+	background-color: whitesmoke;
+    padding: 45px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #d3624ee3;
+	color: whitesmoke;
+	padding: 15px 20px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 45px;
+	 color: #a5c2e4;
+}
+
+.list-inline i:hover {
+	font-size: 45px;
+	 color: #d3624ee3;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
